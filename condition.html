@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition</title>
+</head>
+<body>
+    <ul>
+    <li>IF</li>
+    <li>Else</li>
+    <li>Else IF</li>
+    <li>Switch</li>
+    </ul>
+    <div id="Condition"></div>
+    <div id="Condition1"></div>
+    <div id="Condition2"></div>
+    <div id="Condition3"></div>
+    <div id="Condition4"></div>
+
+
+
+    <script>
+    let sanket,sandip,tejas;
+    Money = 400;
+    if(Money >300){
+        sanket = "I will go to vaijapur";
+        sandip = "I will go to sambhajinagar";
+        tejas = "I will go to nashik";
+        document.getElementById("Condition").innerHTML = sanket +"<br>"+sandip +"<br>"+tejas;
+
+    }
+    else if(Money ==200){
+        sanket = "I will go to collage";
+        sandip = "I will go to collage";
+        tejas = "I will go to collage";
+        document.getElementById("condition").innerHTML = sanket +"<br>"+sandip +"<br>"+tejas;
+
+    }
+    else{
+        sanket = "I will go to home";
+        sandip = "I will go to home";
+        tejas = "I will go to home";
+        document.getElementById("condition").innerHTML = sanket +"<br>"+sandip +"<br>"+tejas;
+
+    }
+    </script>
+    <script>
+        let vikas;
+        vicky=5000;
+        if(vicky < 4000){
+            vikas = "i will by renge rower"
+            document.getElementById("Condition3").innerHTML = vikas;
+        }
+        else if(vicky==5000){
+            vikas = "i have range rower"
+            document.getElementById("Condition3").innerHTML = vikas;
+
+        }
+        else{
+            vikas = "i earining a mony and by a range rower"
+            document.getElementById("Condition3").innerHTML =vikas;
+        }
+        
+    </script>
+     
+    <script>
+let Car,Bike;
+Car=50000;
+Bike=20000;
+if(Car > Bike){
+       document.getElementById("Condition1").innerHTML = "I will buy a bike";
+        
+    }
+    else if(Car > Bike){
+        document.getElementById("Condition1").innerHTML ="I will buy a Car";
+    } 
+    else {
+        document.getElementById("Condition1").innerHTML = "I will not buy anything";
+    }
+    </script>
+
+    <script>
+         let Laptop;
+    Laptop = "Dell";
+
+    switch(Laptop){
+        case "Apple":
+            document.getElementById("Condition2").innerHTML = "I will buy Apple laptop";
+            break;
+            case "Dell":
+            document.getElementById("Condition2").innerHTML = "I will buy Dell laptop";
+            break;
+        case "Infinix":
+            document.getElementById("Condition2").innerHTML = "I will buy Infinix laptop";
+            break;
+        case "Asus":
+            document.getElementById("Condition2").innerHTML = "I will buy Asus laptop";
+            break;
+        default:
+            document.getElementById("Condition2").innerHTML = "I will not buy any laptop";
+    }
+    </script>
+    <script>
+        let ExCar;
+        Excar = "Lambo";
+
+        switch(Excar){
+        case"rolls royal":
+            document.getElementById("Condition4").innerHTML = "I Have Rolls Royel";
+            break;
+         case "Range Rower":
+            document.getElementById("Condition4").innerHTML = "I Have Range Rower";
+            break;
+         case "Defender":
+            document.getElementById("Condition4").innerHTML = "I Have Defender";
+            break;
+         case "Lambo":
+            document.getElementById("Condition4").innerHTML = "I Have Lambo";
+            break;
+            default:
+            document.getElementById("Condition4").innerHTML = "I Dont Have Any Car";
+
+        }
+    </script>
+</body>
+
+
+</html>
